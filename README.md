@@ -27,3 +27,5 @@ FindSequence = (numbers: number[], comparison: (a: number, b: number) => boolean
   return outputSequence.length < currentSequence.length ? currentSequence : outputSequence;
 };
 ```
+
+code is pretty clean and immediately handles one million length arrays
