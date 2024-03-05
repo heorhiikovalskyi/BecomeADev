@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.11.24"
+  },
+  "dependencies": {
+    "esbuild": "^0.20.1",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "build": "esbuild src/main.ts --platform=node --target=node16 --bundle --minify --main-fields=main --outfile=dist/main.js "
+  }
+}
